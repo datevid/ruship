@@ -20,17 +20,17 @@ Puedes ejecutar cada archivo de manera independiente y así apreciar los cambios
 
 
 Detalle:
-### 1.DrawSprite.py
+### 1. [DrawSprite.py](https://github.com/datevid/ruship/blob/main/development/1.DrawSprite.py)
 Estructura básico del proyecto con la impresión de una primera pantalla
 ### 2.Bouncing.py
 
-### 3.BasicMov.py
-### 4.BasicMovSprite.py
-### 5.AdvancedMovSprite.py
-### 6.SpriteCollision.py
-### 7.Object.py
-### 8.MoveMeteors.py
-### 9.MoveMeteorRandomInGame.py
-### 10.MoveMeteorRandom.py
-### 11.Fonts.py
+### 3. BasicMov.py
+### 4. BasicMovSprite.py
+### 5. AdvancedMovSprite.py
+### 6. SpriteCollision.py
+### 7. Object.py
+### 8. MoveMeteors.py
+### 9. MoveMeteorRandomInGame.py
+### 10. MoveMeteorRandom.py
+### 11. Fonts.py
 
