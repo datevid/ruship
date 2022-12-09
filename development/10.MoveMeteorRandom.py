@@ -66,6 +66,8 @@ ship.speedY = 5
 ship.rect.height = ship.rect.height-10
 ship.rect.width = ship.rect.width-10
 
+#font = pygame.font.Font(None, 20)
+game_over_font = pygame.font.SysFont('Verdana', 60)
 
 # Flag to track whether the left or right key is being pressed
 left_key_pressed = False
@@ -200,6 +202,7 @@ while True:
         # update the window
         pygame.display.update()
     else:
-        print("No está en juego, sin embargo deben mostrarse el game over en esta zona.")
+        #print("No está en juego, sin embargo deben mostrarse el game over en esta zona.")
+        game_over = game_over_font.render("Game Over", True, (255, 0, 0))
 
     clock.tick(60)
