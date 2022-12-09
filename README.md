@@ -21,16 +21,25 @@ Puedes ejecutar cada archivo de manera independiente y así apreciar los cambios
 
 Detalle:
 ### 1. [DrawSprite.py](https://github.com/datevid/ruship/blob/main/development/1.DrawSprite.py)
-Estructura básica del proyecto con la impresión de una primera pantalla
+Basic structure of proyect with the first screen of aplication
 ### 2. [Bouncing.py](https://github.com/datevid/ruship/blob/main/development/2.Bouncing.py)
-
+Movement of a bouncing sphere around the aplication frame.
 ### 3. [BasicMov.py](https://github.com/datevid/ruship/blob/main/development/3.DrawSprite.py)
+Basic movement of rectangle with a custom keys.
 ### 4. [BasicMovSprite.py](https://github.com/datevid/ruship/blob/main/development/4.BasicMovSprite.py)
+Basic movement of an image with a custom keys.
 ### 5. [AdvancedMovSprite.py](https://github.com/datevid/ruship/blob/main/development/5.AdvancedMovSprite.py)
+Fluid sprite movement with a custom keys.
 ### 6. [SpriteCollision.py](https://github.com/datevid/ruship/blob/main/development/6.SpriteCollision.py)
+Detecting collisions.
 ### 7. [Object.py](https://github.com/datevid/ruship/blob/main/development/7.Object.py)
+Meteors movement 
 ### 8. [MoveMeteors.py](https://github.com/datevid/ruship/blob/main/development/8.MoveMeteors.py)
+Meteors movement with stop application in collision detected
 ### 9. [MoveMeteorRandomInGame.py](https://github.com/datevid/ruship/blob/main/development/9.MoveMeteorRandomInGame.py)
+Meteors movement ramdom
 ### 10. [MoveMeteorRandom.py](https://github.com/datevid/ruship/blob/main/development/10.MoveMeteorRandom.py)
+Meteors movement ramdom
 ### 11. [Fonts.py](https://github.com/datevid/ruship/blob/main/development/11.Fonts.py)
+Adding text of Game Over
 
