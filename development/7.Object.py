@@ -14,7 +14,7 @@ bg_color = (0, 0, 0)
 
 # Create a sprite object
 meteor1 = pygame.sprite.Sprite()
-meteor1.image = pygame.image.load("../assets/asteroid1.png")
+meteor1.image = pygame.image.load("assets/asteroid1.png")
 meteor1.image = pygame.transform.scale(meteor1.image, (100, 100))
 meteor1.rect = meteor1.image.get_rect()
 meteor1.rect.x = 100
@@ -24,7 +24,7 @@ meteor1.speedY = 1
 
 #ship
 ship = pygame.sprite.Sprite()
-ship.image = pygame.image.load("../assets/player.png")
+ship.image = pygame.image.load("assets/player.png")
 ship.image = pygame.transform.scale(ship.image, (50, 50))
 ship.rect = ship.image.get_rect()
 ship.rect.center = (screen_width / 2, screen_height / 2)

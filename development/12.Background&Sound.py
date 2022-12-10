@@ -11,19 +11,19 @@ pygame.display.set_caption("Ruship by @Datevid")
 
 clock = pygame.time.Clock()
 
-music = pygame.mixer.music.load('../assets/Time-and-Space-Dramatic-Epic-Music.mp3')
+music = pygame.mixer.music.load('assets/Time-and-Space-Dramatic-Epic-Music.mp3')
 pygame.mixer.music.play(-1)
 
 # Load the background image
 bgImage = pygame.sprite.Sprite()
-bgImage.image = pygame.image.load('../assets/bg5.png')
+bgImage.image = pygame.image.load('assets/bg5.png')
 bgImage.image = pygame.transform.scale(bgImage.image, (screen_width, screen_height))
 bgImage.rect = bgImage.image.get_rect()
 
 # Create a sprite object for meteor 1
 #meteoritos se caracterizan por ser lentos
 meteor1 = pygame.sprite.Sprite()
-meteor1.image = pygame.image.load("../assets/meteor1.png")
+meteor1.image = pygame.image.load("assets/meteor1.png")
 meteor1.image = pygame.transform.scale(meteor1.image, (100, 100))
 meteor1.rect = meteor1.image.get_rect()
 meteor1.rect.x = random.randint(0, screen_width-meteor1.rect.width)
@@ -37,7 +37,7 @@ meteor1.rect.width = meteor1.rect.width-15
 # Create a sprite object for meteor 2
 #meteoritos se caracterizan por ser más rápidos que el anterior
 meteor2 = pygame.sprite.Sprite()
-meteor2.image = pygame.image.load("../assets/meteor2.png")
+meteor2.image = pygame.image.load("assets/meteor2.png")
 meteor2.image = pygame.transform.scale(meteor2.image, (100, 100))
 meteor2.rect = meteor2.image.get_rect()
 #meteor2.rect.x = 200
@@ -51,7 +51,7 @@ meteor2.rect.width = meteor2.rect.width-15
 # Create a sprite object for meteor 3
 #meteoritos se caracterizan tener múltiples direcciones
 meteor3 = pygame.sprite.Sprite()
-meteor3.image = pygame.image.load("../assets/asteroid3.png")
+meteor3.image = pygame.image.load("assets/asteroid3.png")
 meteor3.image = pygame.transform.scale(meteor3.image, (100, 100))
 meteor3.rect = meteor3.image.get_rect()
 #meteor3.rect.x = 300
@@ -65,7 +65,7 @@ meteor3.rect.width = meteor3.rect.width-15
 # Create a sprite object for meteor 4
 #meteoritos se caracterizan por ser veloces
 meteor4 = pygame.sprite.Sprite()
-meteor4.image = pygame.image.load("../assets/meteor4.png")
+meteor4.image = pygame.image.load("assets/meteor4.png")
 meteor4.image = pygame.transform.scale(meteor4.image, (100, 100))
 meteor4.rect = meteor4.image.get_rect()
 #meteor4.rect.x = 300
@@ -79,7 +79,7 @@ meteor4.rect.width = meteor4.rect.width-15
 # Create a sprite object for meteor 5
 #meteoritos se caracterizan por ser muy veloces y a una sola dirección
 meteor5 = pygame.sprite.Sprite()
-meteor5.image = pygame.image.load("../assets/meteor5.png")
+meteor5.image = pygame.image.load("assets/meteor5.png")
 meteor5.image = pygame.transform.scale(meteor5.image, (100, 100))
 meteor5.rect = meteor5.image.get_rect()
 #meteor5.rect.x = 300
@@ -92,7 +92,7 @@ meteor5.rect.width = meteor5.rect.width-15
 
 # ship
 ship = pygame.sprite.Sprite()
-ship.image = pygame.image.load("../assets/player.png")
+ship.image = pygame.image.load("assets/player.png")
 ship.image = pygame.transform.scale(ship.image, (50, 50))
 ship.rect = ship.image.get_rect()
 ship.rect.center = (screen_width / 2, screen_height / 2)

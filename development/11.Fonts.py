@@ -16,7 +16,7 @@ bg_color = (0, 0, 0)
 
 # Create a sprite object for meteor 1
 meteor1 = pygame.sprite.Sprite()
-meteor1.image = pygame.image.load("../assets/asteroid1.png")
+meteor1.image = pygame.image.load("assets/asteroid1.png")
 meteor1.image = pygame.transform.scale(meteor1.image, (100, 100))
 meteor1.rect = meteor1.image.get_rect()
 #meteor1.rect.x = 200
@@ -30,7 +30,7 @@ meteor1.rect.width = meteor1.rect.width-15
 
 # Create a sprite object for meteor 1
 meteor2 = pygame.sprite.Sprite()
-meteor2.image = pygame.image.load("../assets/asteroid2.png")
+meteor2.image = pygame.image.load("assets/asteroid2.png")
 meteor2.image = pygame.transform.scale(meteor2.image, (100, 100))
 meteor2.rect = meteor2.image.get_rect()
 #meteor2.rect.x = 200
@@ -43,7 +43,7 @@ meteor2.rect.width = meteor2.rect.width-15
 
 # Create a sprite object for meteor 1
 meteor3 = pygame.sprite.Sprite()
-meteor3.image = pygame.image.load("../assets/meteor3.png")
+meteor3.image = pygame.image.load("assets/meteor3.png")
 meteor3.image = pygame.transform.scale(meteor3.image, (100, 100))
 meteor3.rect = meteor3.image.get_rect()
 #meteor3.rect.x = 300

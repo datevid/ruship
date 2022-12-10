@@ -22,7 +22,7 @@ spriteObj.center=(screen_width/2,screen_height/2)
 spriteSpeedX,spriteSpeedY=5,5
 
 # Load the image of nave espacial or spaceship
-shipSurface = pygame.image.load("../assets/player.png")
+shipSurface = pygame.image.load("assets/player.png")
 shipSurface=pygame.transform.scale(shipSurface,(50,50))
 shipObj=shipSurface.get_rect()
 
