@@ -17,6 +17,8 @@ Puedes ejecutar cada archivo de manera independiente y así apreciar los cambios
 * 10.MoveMeteorRandom.py
 * 11.FontsExample.py
 * 11.Fonts.py
+* 12.Background&Sound.py
+* 13.FontPixelArt.py
 
 
 Detalle:
@@ -42,4 +44,10 @@ Meteors movement ramdom
 Meteors movement ramdom
 ### 11. [Fonts.py](https://github.com/datevid/ruship/blob/main/development/11.Fonts.py)
 Adding text of Game Over
+### 12.[Background&Sound.py](https://github.com/datevid/ruship/blob/main/development/12.Background&Sound.py)
+Change background and sound
+### 13.[FontPixelArt.py](https://github.com/datevid/ruship/blob/main/development/13.FontPixelArt.py)
+Change font pixel art
+Change ship from https://kenney.itch.io/ship-mixer
+
 
