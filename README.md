@@ -1,9 +1,12 @@
 # Ruship
 Creación del juego de una nave Rush que debe evitar a los meteoritos para así llegar a su destino sano y salvo
 
+## Descarga la aplicación
 Descarga la aplicación en linux, en la siguiente dirección:
 
 https://github.com/datevid/ruship/tree/main/beta/linux
+
+## Avance del proyecto
 
 En este proyecto se te mostrará el avance del proyecto paso a paso. Puedes ir a la sección de development para ver cada avance.
 
